@@ -1,5 +1,5 @@
 ```
-cd aria-main
+cd lab-ly
 ```
 
 
