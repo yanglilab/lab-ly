@@ -1,0 +1,16 @@
+[
+    {
+        "dates" : "2023.01 —— 2025.12",
+        "role" : "Participant",
+        "company" : "Zhejiang Provincial Department of Science and Technology",
+        "description" : "Research and Application Demonstration of Key Technologies for Rapid Modeling and Intelligent Virtual-Real Interaction for Future Meta-Communities",
+        "logo" : "/assets/images/experiences/devdojo.png"
+    },
+    {
+        "dates" : "May 2018 · June 2023",
+        "role" : "Participant",
+        "company" : "Ministry of Science and Technology of China",
+        "description" : "Research on Understandability Evaluation Method of Speech Recognition Transcription for Human-Human Interaction.",
+        "logo" : "/assets/images/experiences/google.png"
+    }
+]
