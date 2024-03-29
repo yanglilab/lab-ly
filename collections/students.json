@@ -1,0 +1,33 @@
+[
+    {
+        "name" : "Xinmiao Zhu",
+        "description": "Cross-modal spine generation",
+        "image" : "/assets/images/avatars_students/zxm.jpeg",
+        "url" : "javascript:void(0)"
+    },
+    {
+        "name" : "Fangtao Song",
+        "description": "Federated Learning & Swarm Learning",
+        "image" : "/assets/images/avatars_students/sft.png",
+        "url" : "https://flik1337.com"
+    },
+    {
+        "name" : "Chenmiao Ruan",
+        "description": "Image registration",
+        "image" : "/assets/images/avatars_students/rcm.jpeg",
+        "url" : "/"
+    },
+
+    {
+        "name" : "Long Wei",
+        "description": "ECG classification",
+        "image" : "/assets/images/avatars_students/wl.jpeg",
+        "url" : "/"
+    },
+    {
+        "name" : "Yongjie Liu",
+        "description": "Lung Segementation & Author of YOLOSHOW",
+        "image" : "/assets/images/avatars_students/lyj.jpeg",
+        "url" : "https://swimmingliu.cn/"
+    }
+]
