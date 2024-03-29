@@ -1,15 +1,97 @@
 <layout src="main.html" title="Recruitment">
 
-    <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <section class="relative z-20 max-w-2xl mx-auto my-2 px-7 lg:px-0">
         <include 
-            src="page-heading.html" 
-            title="Recruitment" 
-            description=""
-        ></include>
+        src="page-heading.html" 
+        title="Join US" 
+        description="Welcome to our recruitment page. Here is a brief introduction to our laboratory, including laboratory equipment and treatment."
+    ></include>
+        <div class="z-50 flex flex-col items-stretch w-full gap-5 my-4">
+            <include src="recruitment-loop.html"></include>
+        </div>    
 
-        <div class="z-50 flex flex-col items-stretch w-full gap-5 my-8">
-            <include src="posts-loop.html" count="10"></include>
+<!--
+            <div class="z-50 flex flex-col items-stretch w-full gap-5 my-4">
+            <div class="relative border border-transparent border-dashed cursor-pointer p-7 group rounded-2xl">
+                <div
+                    class="absolute inset-0 z-20 w-full h-full duration-300 ease-out bg-white border border-dashed dark:bg-neutral-950 rounded-2xl border-neutral-300 dark:border-neutral-600 group-hover:-translate-x-1 group-hover:-translate-y-1">
+                </div>
+                <div
+                    class="absolute inset-0 z-10 w-full h-full duration-300 ease-out border border-dashed rounded-2xl border-neutral-300 dark:border-neutral-600 group-hover:translate-x-1 group-hover:translate-y-1">
+                </div>
+                <div class="relative z-30 duration-300 ease-out group-hover:-translate-x-1 group-hover:-translate-y-1">
+                    <h2 class="flex items-center mb-3">
+                        <div class="text-xl font-bold leading-tight tracking-tight sm:text-2xl dark:text-neutral-100">
+                            🖥️ Devices
+                        </div>
+                    </h2>
+                    <p class="text-sm text-neutral-600 dark:text-neutral-400">
+                        Our lab's servers are equipped with <span class="font-semibold">4 RTX 4090 GPUs</span> and <span class="font-semibold">128GB of RAM</span>, 
+                        providing each student with an individual account, supporting SSH remote connections, 
+                        high concurrency, and high responsiveness to meet the research and experimental needs of <span class="font-semibold">every student</span>.
+                    </p>
+                    <div class="mt-2.5 flex flex-row text-xs font-medium text-neutral-800 dark:text-neutral-300">
+
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="z-50 flex flex-col items-stretch w-full gap-5 my-4">
+            <div class="relative border border-transparent border-dashed cursor-pointer p-7 group rounded-2xl">
+                <div
+                    class="absolute inset-0 z-20 w-full h-full duration-300 ease-out bg-white border border-dashed dark:bg-neutral-950 rounded-2xl border-neutral-300 dark:border-neutral-600 group-hover:-translate-x-1 group-hover:-translate-y-1">
+                </div>
+                <div
+                    class="absolute inset-0 z-10 w-full h-full duration-300 ease-out border border-dashed rounded-2xl border-neutral-300 dark:border-neutral-600 group-hover:translate-x-1 group-hover:translate-y-1">
+                </div>
+                <div class="relative z-30 duration-300 ease-out group-hover:-translate-x-1 group-hover:-translate-y-1">
+                    <h2 class="flex items-center mb-3">
+                        <div class="text-xl font-bold leading-tight tracking-tight sm:text-2xl dark:text-neutral-100">
+                            🛠️ Requirements
+                        </div>
+                    </h2>
+                    <p class="text-sm text-neutral-600 dark:text-neutral-400">
+                        If you are interested in the following topics and are passionate about learning medical AI knowledge, 
+                        please prepare your <span class="font-semibold">Personal Materials</span>.
+                         The materials are included but not limited to your <span class="font-semibold">Resume</span>, <span class="font-semibold">Award Certificates</span>, and <span class="font-semibold">Research Experience</span>, as evidence of your comprehensive abilities. 
+                         Our research topics are as following:
+                         <ul class="py-2 space-y-[3px] text-sm list-disc list-inside text-neutral-500 dark:text-neutral-400">
+                            <li>Semantic Segmentation of Medical Images</li>
+                            <li>Multimodal Lumbar Image Recognition</li>
+                            <li>Early Alzheimer's Disease Computer-aided Diagnosis</li>
+                            <li>Interpretable Classification Recognition of Arrhythmia ECG Signals</li>
+                        </ul>
+                    </p>
+                    <div class="mt-2.5 flex flex-row text-xs font-medium text-neutral-800 dark:text-neutral-300">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="z-50 flex flex-col items-stretch w-full gap-5 my-4">
+            <div class="relative border border-transparent border-dashed cursor-pointer p-7 group rounded-2xl">
+                <div
+                    class="absolute inset-0 z-20 w-full h-full duration-300 ease-out bg-white border border-dashed dark:bg-neutral-950 rounded-2xl border-neutral-300 dark:border-neutral-600 group-hover:-translate-x-1 group-hover:-translate-y-1">
+                </div>
+                <div
+                    class="absolute inset-0 z-10 w-full h-full duration-300 ease-out border border-dashed rounded-2xl border-neutral-300 dark:border-neutral-600 group-hover:translate-x-1 group-hover:translate-y-1">
+                </div>
+                <div class="relative z-30 duration-300 ease-out group-hover:-translate-x-1 group-hover:-translate-y-1">
+                    <h2 class="flex items-center mb-3">
+                        <div class="text-xl font-bold leading-tight tracking-tight sm:text-2xl dark:text-neutral-100">
+                            📮 Contact
+                        </div>
+                    </h2>
+                    <p class="text-sm text-neutral-600 dark:text-neutral-400">
+                        If meeting our requirements, and you are willing to join us. Please prepare your personal materials and contact our tutor YangLi via email. The mail is <spa class="font-semibold">yangli@zstu.edu.cn</spa>
+                    </p>
+                    <div class="mt-2.5 flex flex-row text-xs font-medium text-neutral-800 dark:text-neutral-300">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+-->
 
     </section>
 
