@@ -45,6 +45,9 @@ jobs:
           # Upload entire repository
           path: './_site/'
           EXTERNAL_REPOSITORY: yanglilab/yanglilab.github.io
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          PUBLISH_BRANCH: main
+          commit_message: ${{ github.event.head_commit.message }}
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
