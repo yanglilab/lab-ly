@@ -1,7 +1,7 @@
 [
     {
         "name" : "Xinmiao Zhu",
-        "description": "Cross-modal spine generation",
+        "description": "Cross-modal Spine Generation",
         "image" : "/assets/images/avatars_students/zxm.jpeg",
         "url" : "javascript:void(0)"
     },
@@ -13,14 +13,14 @@
     },
     {
         "name" : "Chenmiao Ruan",
-        "description": "Image registration",
+        "description": "Image Registration",
         "image" : "/assets/images/avatars_students/rcm.jpeg",
         "url" : "javascript:void(0)"
     },
 
     {
         "name" : "Long Wei",
-        "description": "ECG classification",
+        "description": "ECG Classification",
         "image" : "/assets/images/avatars_students/wl.jpeg",
         "url" : "javascript:void(0)"
     },
