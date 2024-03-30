@@ -44,10 +44,19 @@ jobs:
         with:
           # Upload entire repository
           path: './_site/'
-          EXTERNAL_REPOSITORY: yanglilab/yanglilab.github.io
-          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-          PUBLISH_BRANCH: main
-          commit_message: ${{ github.event.head_commit.message }}
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+            - name: Push to yangli.github.io
+        run: |
+          git config --global user.name 'yanglilab'
+          git config --global user.email 'yanglilab@outlook.com'
+          git clone https://github.com/yanglilab/yanglilab.github.io.git yangli-pages
+          rm -rf yangli-pages/*  # 小心使用此命令，它会删除所有文件
+          cp -r ./_site/* yangli-pages/
+          cd yangli-pages
+          git add .
+          git commit -m "Deploy site updates"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
