@@ -9,6 +9,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  schedule:
+        # Runs everyday at 8:00 AM
+        - cron: "0 0 * * *"
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -44,19 +48,11 @@ jobs:
         with:
           # Upload entire repository
           path: './_site/'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
-            - name: Push to yangli.github.io
-        run: |
-          git config --global user.name 'yanglilab'
-          git config --global user.email 'yanglilab@outlook.com'
-          git clone https://github.com/yanglilab/yanglilab.github.io.git yangli-pages
-          rm -rf yangli-pages/*  # 小心使用此命令，它会删除所有文件
-          cp -r ./_site/* yangli-pages/
-          cd yangli-pages
-          git add .
-          git commit -m "Deploy site updates"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+      - name: Deploy Web
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+            PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+            EXTERNAL_REPOSITORY: SwimmingLiu/swimmingliu.github.io
+            PUBLISH_BRANCH: master
+            PUBLISH_DIR: './_site/'
+            commit_message: ${{ github.event.head_commit.message }}
