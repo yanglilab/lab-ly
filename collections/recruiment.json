@@ -6,7 +6,7 @@
     },
     {
       "title": "🛠️ Requirements",
-      "description": "If you are interested in the following topics and are passionate about learning medical AI knowledge, please prepare your <span class='font-semibold'>Personal Materials</span>.The materials are included but not limited to your <span class='font-semibold'>Resume</span>, <span class='font-semibold'>Award Certificates</span>, and <span class='font-semibold'>Research Experience</span>, as evidence of your comprehensive abilities. Our research topics are as following:<ul class='py-2 space-y-[3px] text-sm list-disc list-inside text-neutral-500 dark:text-neutral-400'><li>Semantic Segmentation of Medical Images</li><li>Multimodal Lumbar Image Recognition</li><li>Early Alzheimer's Disease Computer-aided Diagnosis</li> <li>Interpretable Classification Recognition of Arrhythmia ECG Signals</li></ul>",
+      "description": "If you are interested in the following topics and are passionate about learning medical AI knowledge, please prepare your <span class='font-semibold'>Personal Materials</span>.<br> The materials are included but not limited to your <span class='font-semibold'>Resume</span>, <span class='font-semibold'>Award Certificates</span>, and <span class='font-semibold'>Research Experience</span>, as evidence of your comprehensive abilities. <br>Our research topics are as following:<ul class='py-2 space-y-[3px] text-sm list-disc list-inside text-neutral-500 dark:text-neutral-400'><li>Semantic Segmentation of Medical Images</li><li>Multimodal Lumbar Image Recognition</li><li>Early Alzheimer's Disease Computer-aided Diagnosis</li> <li>Interpretable Classification Recognition of Arrhythmia ECG Signals</li></ul>",
       "link": ""
     },
     {
