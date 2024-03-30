@@ -38,12 +38,13 @@ jobs:
       - name: Run NPM Install
         run: npm install
       - name: Run the static build step
-        run: npx @devdojo/static build https://yanglilab.github.io/
+        run: npx @devdojo/static build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           # Upload entire repository
           path: './_site/'
+          EXTERNAL_REPOSITORY: yanglilab/yanglilab.github.io
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
