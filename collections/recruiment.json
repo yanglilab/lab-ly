@@ -1,7 +1,7 @@
 [
     {
       "title": "🖥️ Devices",
-      "description": "Our lab's servers are equipped with <span class='font-semibold'>4 RTX 4090 GPUs</span> and <span class='font-semibold'>128GB of RAM</span>,providing each student with an individual account, supporting SSH remote connections, high concurrency, and high responsiveness to meet the research and experimental needs of <span class='font-semibold'>every student</span>.",
+      "description": "Our lab's servers are equipped with <span class='font-semibold'>4 RTX 4090 GPUs</span> and <span class='font-semibold'>128GB of RAM</span>, providing each student with an individual account, supporting SSH remote connections, high concurrency, and high responsiveness to meet the research and experimental needs of <span class='font-semibold'>every student</span>.",
       "link": ""
     },
     {

@@ -15,14 +15,14 @@
         "name" : "Chenmiao Ruan",
         "description": "Image registration",
         "image" : "/assets/images/avatars_students/rcm.jpeg",
-        "url" : "/"
+        "url" : "javascript:void(0)"
     },
 
     {
         "name" : "Long Wei",
         "description": "ECG classification",
         "image" : "/assets/images/avatars_students/wl.jpeg",
-        "url" : "/"
+        "url" : "javascript:void(0)"
     },
     {
         "name" : "Yongjie Liu",
