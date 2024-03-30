@@ -1,79 +1,68 @@
 [
     {
-        "dates": "2022.01 —— 2024.12",
-        "role": "Principal Investigator",
-        "company": "National Natural Science Foundation of China",
-        "description": "Research on Intraoperative Large Deformation Lumbar Image Registration Method Based on Semantic Constraint Differential Homeomorphism Mapping",
-        "count": 1
-    },
-    {
-        "dates": "2023.01 —— 2025.12",
-        "role": "Principal Investigator",
-        "company": "Zhejiang Provincial Natural Science Foundation",
-        "description": "Study on Early Alzheimer's Disease Diagnosis Method Based on Cross-Modal Image Transfer Learning",
-        "count": 2
+        "dates": "2024.01 —— 2026.12",
+        "role": "Participant",
+        "company": "Ministry of Science and Technology of China",
+        "description": "Research on Key Technologies and Applications for Early Warning of Sudden Death from Malignant Arrhythmias Based on Intelligent Analysis of Big Data from Flexible Wearable ECG"
     },
     {
         "dates": "2023.06 —— 2026.06",
         "role": "Principal Investigator",
         "company": "Department of Science and Technology of Ningxia Hui Autonomous Region",
-        "description": "Research and Demonstration Application of Arrhythmia Early Warning Monitoring Technology Based on Intelligent Analysis of Big Data from Flexible Wearable ECG",
-        "count": 3
-    },
-    {
-        "dates": "2021.09 —— 2022.09",
-        "role": "Principal Investigator",
-        "company": "Horizontal project",
-        "description": "Integrated Solution for Smart Construction Sites",
-        "count": 4
-    },
-    {
-        "dates": "2019.04 —— 2022.03",
-        "role": "Principal Investigator",
-        "company": "Zhejiang Sci-Tech University",
-        "description": "Research on Multimodal Medical Image Registration Method for Minimally Invasive Spinal Surgery Navigation",
-        "count": 5
+        "description": "Research and Demonstration Application of Arrhythmia Early Warning Monitoring Technology Based on Intelligent Analysis of Big Data from Flexible Wearable ECG"
     },
     {
         "dates": "2023.01 —— 2026.12",
         "role": "Participant",
         "company": "National Natural Science Foundation of China",
-        "description": "Research on Intelligent Processing and Analysis Methods of Cardiac MRI Images for Predicting Recurrence of Atrial Fibrillation",
-        "count": 6
+        "description": "Research on Intelligent Processing and Analysis Methods of Cardiac MRI Images for Predicting Recurrence of Atrial Fibrillation"
     },
     {
-        "dates": "2020.07 —— 2023.07",
-        "role": "Participant",
-        "company": "National Natural Science Foundation of China",
-        "description": "Rapid High-Resolution Magnetic Resonance Imaging and Its Application in the Brain Glymphatic System",
-        "count": 7
-    },
-    {
-        "dates": "2020.01 —— 2022.12",
-        "role": "Participant",
-        "company": "Zhejiang Provincial Department of Science and Technology",
-        "description": "Research and Development of Smart Medical Devices and Systems - Study on Arrhythmia Intelligent Monitoring Platform Based on Interpretable Convolutional Recurrent Neural Network",
-        "count": 8
-    },
-    {
-        "dates": "2024.01 —— 2026.12",
-        "role": "Participant",
-        "company": "Ministry of Science and Technology of China",
-        "description": "Research on Key Technologies and Applications for Early Warning of Sudden Death from Malignant Arrhythmias Based on Intelligent Analysis of Big Data from Flexible Wearable ECG",
-        "count": 9
-    },
-    {
-        "dates": "2022.10 —— 2025.09",
-        "role": "Participant",
-        "company": "Ministry of Science and Technology of China",
-        "description": "Research on Understandability Evaluation Method of Speech Recognition Transcription for Human-Human Interaction",
-        "count": 10
+        "dates": "2023.01 —— 2025.12",
+        "role": "Principal Investigator",
+        "company": "Zhejiang Provincial Natural Science Foundation",
+        "description": "Study on Early Alzheimer's Disease Diagnosis Method Based on Cross-Modal Image Transfer Learning"
     },
     {
         "dates": "2023.01 —— 2025.12",
         "role": "Participant",
         "company": "Zhejiang Provincial Department of Science and Technology",
-        "description": "Research and Application Demonstration of Key Technologies for Rapid Modeling and Intelligent Virtual-Real Interaction for Future Meta-Communities",
-        "count": 11
+        "description": "Research and Application Demonstration of Key Technologies for Rapid Modeling and Intelligent Virtual-Real Interaction for Future Meta-Communities"
+    },
+    {
+        "dates": "2022.10 —— 2025.09",
+        "role": "Participant",
+        "company": "Ministry of Science and Technology of China",
+        "description": "Research on Understandability Evaluation Method of Speech Recognition Transcription for Human-Human Interaction"
+    },
+    {
+        "dates": "2022.01 —— 2024.12",
+        "role": "Principal Investigator",
+        "company": "National Natural Science Foundation of China",
+        "description": "Research on Intraoperative Large Deformation Lumbar Image Registration Method Based on Semantic Constraint Differential Homeomorphism Mapping"
+    },
+    {
+        "dates": "2021.09 —— 2022.09",
+        "role": "Principal Investigator",
+        "company": "Horizontal project",
+        "description": "Integrated Solution for Smart Construction Sites"
+    },
+    {
+        "dates": "2020.07 —— 2023.07",
+        "role": "Participant",
+        "company": "National Natural Science Foundation of China",
+        "description": "Rapid High-Resolution Magnetic Resonance Imaging and Its Application in the Brain Glymphatic System"
+    },
+    {
+        "dates": "2020.01 —— 2022.12",
+        "role": "Participant",
+        "company": "Zhejiang Provincial Department of Science and Technology",
+        "description": "Research and Development of Smart Medical Devices and Systems - Study on Arrhythmia Intelligent Monitoring Platform Based on Interpretable Convolutional Recurrent Neural Network"
+    },
+    {
+        "dates": "2019.04 —— 2022.03",
+        "role": "Principal Investigator",
+        "company": "Zhejiang Sci-Tech University",
+        "description": "Research on Multimodal Medical Image Registration Method for Minimally Invasive Spinal Surgery Navigation"
     }
 ]
