@@ -49,10 +49,10 @@ jobs:
           # Upload entire repository
           path: './_site/'
       - name: Deploy Web
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
-            PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-            EXTERNAL_REPOSITORY: yanglilab/yanglilab.github.io
-            PUBLISH_BRANCH: main
-            PUBLISH_DIR: './_site/'
+            personal_token: ${{ secrets.PERSONAL_TOKEN }}
+            external_repository: yanglilab/yanglilab.github.io
+            publish_branch: main
+            publish_dir: './_site/'
             commit_message: ${{ github.event.head_commit.message }}
