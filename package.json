@@ -3,7 +3,7 @@
     "version": "1.0",
     "description": "Static",
     "author": "Your Name",
-    "license": "ISC",
+    "license": "MIT",
     "scripts": {
         "postinstall": "node scripts/patch-static-tailwind.mjs"
     },
