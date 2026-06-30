@@ -1,22 +1,27 @@
 [
     {
-        "name" : "Home",
-        "url" : "/"
+        "name": "Home",
+        "url": "/",
+        "translationKey": "nav.home"
     },
     {
-        "name" : "Recruitment",
-        "url" : "/recruitment"
+        "name": "Recruitment",
+        "url": "/recruitment",
+        "translationKey": "nav.recruitment"
     },
     {
-        "name" : "Publish",
-        "url" : "/publish"
+        "name": "Publish",
+        "url": "/publish",
+        "translationKey": "nav.publish"
     },
     {
-        "name" : "Team",
-        "url" : "/team"
+        "name": "Team",
+        "url": "/team",
+        "translationKey": "nav.team"
     },
     {
-        "name" : "About",
-        "url" : "/about"
+        "name": "About",
+        "url": "/about",
+        "translationKey": "nav.about"
     }
 ]

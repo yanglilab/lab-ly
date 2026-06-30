@@ -1,11 +1,13 @@
 <layout src="main.html" title="About Me">
 <!--     relative z-20 w-full max-w-4xl mx-auto mt-2 px-7 md:mt-2 lg:mt-2 lg:px-7
  -->
-    <section class="relative z-20 max-w-2xl mx-auto mt-2 px-7 lg:px-0">
+    <section data-i18n-document-title="page.about.title" class="relative z-20 max-w-2xl mx-auto mt-2 px-7 lg:px-0">
         <include 
             src="page-heading.html" 
-            title="About Yang Li" 
+            title="About Yang Li"
             description="Hello 👋 Here is some detailed introduction about Dr. Yang Li"
+            titleKey="about.heading"
+            descriptionKey="about.description"
         ></include>
         
         <!-- <img src="/assets/images/about.jpg" class="relative z-30 w-full my-5 rounded-xl" /> -->
@@ -13,17 +15,17 @@
             <include src="home/cardhomepage.html"></include>
         </div>
 
-        <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Introduction</h2>
-        <p class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg">
-            Yang Li, Ph.D. of Engineering in Pattern Recognition and Intelligent Systems at the University of the Chinese Academy of Sciences, is an Associate Professor and Master's Supervisor at the School of Computer Science and Technology (School of Artificial Intelligence), Zhejiang Sci-Tech University, and a Senior Member of the Chinese Society of Biomedical Engineering. 
+        <h2 data-i18n="about.introduction.title" class="mb-2 text-2xl font-bold dark:text-neutral-200">Introduction</h2>
+        <div data-i18n-html="about.introduction.body" class="about-introduction text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg [&_p]:indent-8 [&_p]:mb-3 [&_p:last-child]:mb-0">
+            Yang Li, Ph.D. of Engineering in Pattern Recognition and Intelligent Systems at the University of the Chinese Academy of Sciences, is an Associate Professor and Master's Supervisor at the School of Computer Science and Technology (School of Artificial Intelligence), Zhejiang Sci-Tech University, and a Senior Member of the Chinese Society of Biomedical Engineering.
             <br>Currently, he presides over one National Natural Science Foundation of China (NSFC) Youth Fund project, one Zhejiang Province Basic Public Welfare Research Plan project, and one sub-project of the Ningxia Hui Autonomous Region Key R&D Plan, and participates in one National Key R&D Program, two National Natural Science Foundation projects, and one Zhejiang Province Key R&D Plan project. 
             He has published over 20 SCI/EI papers and co-authored one academic monograph.
-        </p>
+        </div>
 
         <!-- <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Career</h2>
         <p class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg">After graduating college I landed an excellent job with Adobe. A few years later I worked for Google as a team lead on the design team. I am currently working for DevDojo and building some cool developer and designer tools.</p> -->
 
-        <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Funds</h2>
+        <h2 data-i18n="about.funds" class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Funds</h2>
         <div class="px-5 py-10">
             <ForEach collection="experiences" as="experience" >
                 
@@ -33,8 +35,11 @@
                     src="about-experience.html" 
                     dates="{experience.dates}"
                     role="{experience.description}"
+                    roleKey="{experience.descriptionKey}"
                     company="{experience.company}"
+                    companyKey="{experience.companyKey}"
                     description="{experience.role}"
+                    descriptionKey="{experience.roleKey}"
                     counts="{experience.count}"
                 ></include>
 

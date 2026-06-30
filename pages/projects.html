@@ -1,13 +1,15 @@
 <layout src="main.html" title="Team">
 
-    <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <section data-i18n-document-title="page.team.title" class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
         <include 
             src="page-heading.html" 
             title="Team Memberships" 
             description=""
+            titleKey="team.heading"
+            descriptionKey="team.description"
         ></include> 
         <!-- The following is an introduction to the members of our laboratory. -->
-        <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Instructor</h2>
+        <h2 data-i18n="team.instructor" class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Instructor</h2>
         <div class="z-50 grid items-stretch w-full grid-cols-1 my-8 gap-1 sm:gap-5 
         sm:grid-cols-4">
             <ForEach collection="instructors">
@@ -15,13 +17,15 @@
                     src="project.html" 
                     name="{instructors.name}"
                     description="{instructors.description}"
+                    nameKey="{instructors.nameKey}"
+                    descriptionKey="{instructors.descriptionKey}"
                     image="{instructors.image}"
                     url="{instructors.url}"
                     email="{instructors.email}"
                 ></include>
             </ForEach>
         </div>
-        <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Students</h2>
+        <h2 data-i18n="team.students" class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Students</h2>
 
         <div class="z-50 grid items-stretch w-full grid-cols-1 my-8 gap-1 sm:gap-5 
         sm:grid-cols-4">
@@ -30,6 +34,8 @@
                     src="project.html" 
                     name="{students.name}"
                     description="{students.description}"
+                    nameKey="{students.nameKey}"
+                    descriptionKey="{students.descriptionKey}"
                     image="{students.image}"
                     url="{students.url}"
                     email="{students.email}"

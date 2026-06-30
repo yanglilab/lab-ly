@@ -1,0 +1,42 @@
+import assert from "node:assert/strict";
+import fs from "node:fs";
+
+const mainJs = fs.readFileSync("assets/js/main.js", "utf8");
+
+assert.match(mainJs, /const translations = \{/);
+assert.match(mainJs, /window\.siteLanguage = 'en'/);
+assert.match(mainJs, /function getStoredValue\(key\)/);
+assert.match(mainJs, /function normalizeLanguage\(language\)/);
+assert.match(mainJs, /function getStoredLanguage\(\)/);
+assert.match(mainJs, /function setStoredLanguage\(language\)/);
+assert.match(mainJs, /function getTranslation\(key, language\)/);
+assert.match(mainJs, /function applyLanguage\(language\)/);
+assert.match(mainJs, /function toggleLanguage\(\)/);
+assert.match(mainJs, /function initLanguageToggle\(\)/);
+assert.match(mainJs, /localStorage\.getItem\('site_language'\)/);
+assert.match(mainJs, /localStorage\.setItem\('site_language', normalizedLanguage\)/);
+assert.match(mainJs, /getStoredValue\('dark_mode'\)/);
+assert.match(mainJs, /document\.documentElement\.lang = selectedLanguage == 'zh' \? 'zh-CN' : 'en'/);
+assert.match(mainJs, /document\.querySelectorAll\('\[data-i18n\]'\)/);
+assert.match(mainJs, /document\.querySelectorAll\('\[data-i18n-html\]'\)/);
+assert.match(mainJs, /document\.querySelector\('\[data-i18n-document-title\]'\)/);
+assert.match(mainJs, /document\.title = translatedTitle/);
+assert.match(mainJs, /languageToggle\.addEventListener\('click', toggleLanguage\)/);
+assert.match(mainJs, /initLanguageToggle\(\)/);
+
+assert.match(mainJs, /'nav.home': 'Home'/);
+assert.match(mainJs, /'nav.home': '首页'/);
+assert.match(mainJs, /'language.toggleToChinese': 'Switch language to Chinese'/);
+assert.match(mainJs, /'language.toggleToEnglish': '切换到英文'/);
+assert.match(mainJs, /'page.home.title': 'YangLi Lab - Your Dream Lab'/);
+assert.match(mainJs, /'page.home.title': 'YangLi Lab - Your Dream Lab'/);
+assert.match(mainJs, /'home.title': 'Hi~ 欢迎来到 ?YangLi Lab。'/);
+assert.match(mainJs, /'home.intro': '<span class="font-semibold">YangLi Lab<\/span> ?由李杨/);
+assert.match(mainJs, /'about\.introduction\.body': '<p>李杨/);
+assert.match(mainJs, /<p>目前主持国家自然科学基金青年项目/);
+assert.match(mainJs, /'footer.tagline': '© 2026 YangLi Lab - Your Dream Lab'/);
+assert.doesNotMatch(mainJs, /扬理实验室/);
+assert.match(mainJs, /'context.copyEmail': 'Copy email'/);
+assert.match(mainJs, /'context.copyEmail': '复制邮箱'/);
+assert.match(mainJs, /'context.visitHomepage': 'Visit homepage'/);
+assert.match(mainJs, /'context.visitHomepage': '访问主页'/);

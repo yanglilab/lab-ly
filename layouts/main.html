@@ -5,18 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
 
-    <!-- Used to add dark mode right away, adding here prevents any flicker -->
+    <!-- Used to add persisted display modes right away, preventing flicker -->
     <script>
-        if (typeof(Storage) !== "undefined") {
-            if(localStorage.getItem('dark_mode') && localStorage.getItem('dark_mode') == 'true'){
+        (function(){
+            function getStoredValue(key){
+                try {
+                    if(typeof(Storage) !== "undefined"){
+                        return localStorage.getItem(key);
+                    }
+                } catch (error) {
+                    return null;
+                }
+                return null;
+            }
+
+            if(getStoredValue('dark_mode') == 'true'){
                 document.documentElement.classList.add('dark');
             }
-        }
+
+            if(getStoredValue('site_language') == 'zh'){
+                document.documentElement.lang = 'zh-CN';
+                document.documentElement.dataset.languagePending = 'true';
+            } else {
+                document.documentElement.lang = 'en';
+            }
+        })();
     </script>
     
     <style>
         .prose img{
             border-radius: 20px;
+        }
+
+        html[data-language-pending="true"] [data-i18n],
+        html[data-language-pending="true"] [data-i18n-html]{
+            visibility: hidden;
         }
     </style>
     <link rel="icon" type="image/x-icon" href="/assets/images/YangLiLab-LOGO.png">

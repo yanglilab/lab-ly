@@ -9,8 +9,12 @@ assert.match(projectCard, /data-profile-url="\{url\}"/);
 
 assert.match(mainJs, /initProjectCardContextMenu/);
 assert.match(mainJs, /contextmenu/);
-assert.match(mainJs, /复制邮箱/);
-assert.match(mainJs, /访问主页/);
+assert.match(mainJs, /getTranslation\('context\.copyEmail'\)/);
+assert.match(mainJs, /getTranslation\('context\.visitHomepage'\)/);
+assert.match(mainJs, /'context.copyEmail': 'Copy email'/);
+assert.match(mainJs, /'context.copyEmail': '复制邮箱'/);
+assert.match(mainJs, /'context.visitHomepage': 'Visit homepage'/);
+assert.match(mainJs, /'context.visitHomepage': '访问主页'/);
 assert.match(mainJs, /navigator\.clipboard\.writeText/);
 assert.match(mainJs, /url\.startsWith\('mailto:'\)/);
 assert.match(mainJs, /url\.startsWith\('javascript:'\)/);

@@ -2,85 +2,127 @@
     {
         "dates": "2026.01 —— 2028.12",
         "role": "Participant",
+        "roleKey": "funds.roles.participant",
         "company": "Zhejiang Provincial Natural Science Foundation",
-        "description": "Research on Precise Diagnosis Methods and Interpretability of Coronary Microvascular Disease Based on Intelligent Stress Myocardial Contrast Echocardiography"
+        "companyKey": "funds.agencies.zhejiangNaturalScience",
+        "description": "Research on Precise Diagnosis Methods and Interpretability of Coronary Microvascular Disease Based on Intelligent Stress Myocardial Contrast Echocardiography",
+        "descriptionKey": "funds.preciseCmvdDiagnosis.title"
     },
     {
         "dates": "2025.01 —— 2027.12",
         "role": "Principal Investigator",
+        "roleKey": "funds.roles.principalInvestigator",
         "company": "Funding agency not specified",
-        "description": "Research on Intelligent Prediction of Major Adverse Cardiovascular Events Based on Data Augmentation and Multimodal Multi-Center Population Learning"
+        "companyKey": "funds.agencies.unspecified",
+        "description": "Research on Intelligent Prediction of Major Adverse Cardiovascular Events Based on Data Augmentation and Multimodal Multi-Center Population Learning",
+        "descriptionKey": "funds.macePrediction.title"
     },
     {
         "dates": "2024.01 —— 2026.12",
         "role": "Participant",
+        "roleKey": "funds.roles.participant",
         "company": "Ministry of Science and Technology of China",
-        "description": "Research on Key Technologies and Applications for Early Warning of Sudden Death from Malignant Arrhythmias Based on Intelligent Analysis of Big Data from Flexible Wearable ECG"
+        "companyKey": "funds.agencies.most",
+        "description": "Research on Key Technologies and Applications for Early Warning of Sudden Death from Malignant Arrhythmias Based on Intelligent Analysis of Big Data from Flexible Wearable ECG",
+        "descriptionKey": "funds.malignantArrhythmiaWarning.title"
     },
     {
         "dates": "2024.01 —— 2026.12",
         "role": "Participant",
+        "roleKey": "funds.roles.participant",
         "company": "Zhejiang Provincial Department of Science and Technology",
-        "description": "Research on Key Technologies for Multimodal Image Guidance in Radiotherapy Based on Highly Sensitive Multispectral Cherenkov Imaging"
+        "companyKey": "funds.agencies.zhejiangScienceTechnology",
+        "description": "Research on Key Technologies for Multimodal Image Guidance in Radiotherapy Based on Highly Sensitive Multispectral Cherenkov Imaging",
+        "descriptionKey": "funds.cherenkovRadiotherapy.title"
     },
     {
         "dates": "2023.06 —— 2026.06",
         "role": "Principal Investigator",
+        "roleKey": "funds.roles.principalInvestigator",
         "company": "Department of Science and Technology of Ningxia Hui Autonomous Region",
-        "description": "Research and Demonstration Application of Arrhythmia Early Warning Monitoring Technology Based on Intelligent Analysis of Big Data from Flexible Wearable ECG"
+        "companyKey": "funds.agencies.ningxiaScienceTechnology",
+        "description": "Research and Demonstration Application of Arrhythmia Early Warning Monitoring Technology Based on Intelligent Analysis of Big Data from Flexible Wearable ECG",
+        "descriptionKey": "funds.arrhythmiaMonitoring.title"
     },
     {
         "dates": "2023.01 —— 2026.12",
         "role": "Participant",
+        "roleKey": "funds.roles.participant",
         "company": "National Natural Science Foundation of China",
-        "description": "Research on Intelligent Processing and Analysis Methods of Cardiac MRI Images for Predicting Recurrence of Atrial Fibrillation"
+        "companyKey": "funds.agencies.nsfc",
+        "description": "Research on Intelligent Processing and Analysis Methods of Cardiac MRI Images for Predicting Recurrence of Atrial Fibrillation",
+        "descriptionKey": "funds.afRecurrencePrediction.title"
     },
     {
         "dates": "2023.01 —— 2025.12",
         "role": "Principal Investigator",
+        "roleKey": "funds.roles.principalInvestigator",
         "company": "Zhejiang Provincial Natural Science Foundation",
-        "description": "Study on Early Alzheimer's Disease Diagnosis Method Based on Cross-Modal Image Transfer Learning"
+        "companyKey": "funds.agencies.zhejiangNaturalScience",
+        "description": "Study on Early Alzheimer's Disease Diagnosis Method Based on Cross-Modal Image Transfer Learning",
+        "descriptionKey": "funds.alzheimersTransferLearning.title"
     },
     {
         "dates": "2023.01 —— 2025.12",
         "role": "Participant",
+        "roleKey": "funds.roles.participant",
         "company": "Zhejiang Provincial Department of Science and Technology",
-        "description": "Research and Application Demonstration of Key Technologies for Rapid Modeling and Intelligent Virtual-Real Interaction for Future Meta-Communities"
+        "companyKey": "funds.agencies.zhejiangScienceTechnology",
+        "description": "Research and Application Demonstration of Key Technologies for Rapid Modeling and Intelligent Virtual-Real Interaction for Future Meta-Communities",
+        "descriptionKey": "funds.futureMetaCommunity.title"
     },
     {
         "dates": "2022.10 —— 2025.09",
         "role": "Participant",
+        "roleKey": "funds.roles.participant",
         "company": "Ministry of Science and Technology of China",
-        "description": "Research on Understandability Evaluation Method of Speech Recognition Transcription for Human-Human Interaction"
+        "companyKey": "funds.agencies.most",
+        "description": "Research on Understandability Evaluation Method of Speech Recognition Transcription for Human-Human Interaction",
+        "descriptionKey": "funds.speechTranscriptionUnderstandability.title"
     },
     {
         "dates": "2022.01 —— 2024.12",
         "role": "Principal Investigator",
+        "roleKey": "funds.roles.principalInvestigator",
         "company": "National Natural Science Foundation of China",
-        "description": "Research on Intraoperative Large Deformation Lumbar Image Registration Method Based on Semantic Constraint Differential Homeomorphism Mapping"
+        "companyKey": "funds.agencies.nsfc",
+        "description": "Research on Intraoperative Large Deformation Lumbar Image Registration Method Based on Semantic Constraint Differential Homeomorphism Mapping",
+        "descriptionKey": "funds.lumbarRegistration.title"
     },
     {
         "dates": "2021.09 —— 2022.09",
         "role": "Principal Investigator",
+        "roleKey": "funds.roles.principalInvestigator",
         "company": "Horizontal project",
-        "description": "Integrated Solution for Smart Construction Sites"
+        "companyKey": "funds.agencies.horizontal",
+        "description": "Integrated Solution for Smart Construction Sites",
+        "descriptionKey": "funds.smartConstruction.title"
     },
     {
         "dates": "2020.07 —— 2023.07",
         "role": "Participant",
+        "roleKey": "funds.roles.participant",
         "company": "National Natural Science Foundation of China",
-        "description": "Rapid High-Resolution Magnetic Resonance Imaging and Its Application in the Brain Glymphatic System"
+        "companyKey": "funds.agencies.nsfc",
+        "description": "Rapid High-Resolution Magnetic Resonance Imaging and Its Application in the Brain Glymphatic System",
+        "descriptionKey": "funds.fastHighResolutionMri.title"
     },
     {
         "dates": "2020.01 —— 2022.12",
         "role": "Participant",
+        "roleKey": "funds.roles.participant",
         "company": "Zhejiang Provincial Department of Science and Technology",
-        "description": "Research and Development of Smart Medical Devices and Systems - Study on Arrhythmia Intelligent Monitoring Platform Based on Interpretable Convolutional Recurrent Neural Network"
+        "companyKey": "funds.agencies.zhejiangScienceTechnology",
+        "description": "Research and Development of Smart Medical Devices and Systems - Study on Arrhythmia Intelligent Monitoring Platform Based on Interpretable Convolutional Recurrent Neural Network",
+        "descriptionKey": "funds.smartMedicalDevices.title"
     },
     {
         "dates": "2019.04 —— 2022.03",
         "role": "Principal Investigator",
+        "roleKey": "funds.roles.principalInvestigator",
         "company": "Zhejiang Sci-Tech University",
-        "description": "Research on Multimodal Medical Image Registration Method for Minimally Invasive Spinal Surgery Navigation"
+        "companyKey": "funds.agencies.zstu",
+        "description": "Research on Multimodal Medical Image Registration Method for Minimally Invasive Spinal Surgery Navigation",
+        "descriptionKey": "funds.spinalSurgeryNavigation.title"
     }
 ]

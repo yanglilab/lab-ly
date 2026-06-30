@@ -1,17 +1,23 @@
 [
     {
       "title": "🖥️ Devices",
+      "titleKey": "recruitment.devices.title",
       "description": "Our lab's servers are equipped with <span class='font-semibold'>5 RTX 4090 GPUs</span> and <span class='font-semibold'>128GB of RAM</span>, providing each student with an individual account, supporting SSH remote connections, high concurrency, and high responsiveness to meet the research and experimental needs of <span class='font-semibold'>every student</span>.",
+      "descriptionKey": "recruitment.devices.description",
       "link": ""
     },
     {
       "title": "🛠️ Requirements",
+      "titleKey": "recruitment.requirements.title",
       "description": "If you are interested in the following topics and are passionate about learning medical AI knowledge, please prepare your <span class='font-semibold'>Personal Materials</span>.<br> The materials are included but not limited to your <span class='font-semibold'>Resume</span>, <span class='font-semibold'>Award Certificates</span>, and <span class='font-semibold'>Research Experience</span>, as evidence of your comprehensive abilities. <br><br>Our research topics are as following:<ul class='py-2 space-y-[3px] text-sm list-disc list-inside text-neutral-500 dark:text-neutral-400'><li>Medical Image Segmentation, Detection, and Registration</li><li>Early Alzheimer's Disease Computer-aided Diagnosis</li><li>Cross-modal and Multimodal Medical Image Analysis</li><li>ECG Classification and Computer-aided Diagnosis</li><li>Federated Learning for Medical AI</li></ul>",
+      "descriptionKey": "recruitment.requirements.description",
       "link": ""
     },
     {
       "title": "📮 Contact",
+      "titleKey": "recruitment.contact.title",
       "description": "If meeting our requirements, and you are willing to join us. Please prepare your personal materials and contact our tutor YangLi via email. The mail is <span class='font-semibold'>yangli@zstu.edu.cn</span>",
+      "descriptionKey": "recruitment.contact.description",
       "link": "mailto:yangli@zstu.edu.cn"
     }
   ]

@@ -1,13 +1,15 @@
 <layout src="main.html" title="Team">
 
-    <section class="relative z-20 max-w-2xl mx-auto mt-2 px-7 lg:px-0">
+    <section data-i18n-document-title="page.team.title" class="relative z-20 max-w-2xl mx-auto mt-2 px-7 lg:px-0">
         <include 
             src="page-heading.html" 
             title="Team Memberships" 
             description=""
+            titleKey="team.heading"
+            descriptionKey="team.description"
         ></include> 
         <!-- The following is an introduction to the members of our laboratory. -->
-        <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Professors</h2>
+        <h2 data-i18n="team.professors" class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Professors</h2>
         <div class="z-50 grid items-stretch w-full grid-cols-1 my-8 gap-1 sm:gap-5 
         sm:grid-cols-4">
             <ForEach collection="instructors">
@@ -15,13 +17,15 @@
                     src="project.html" 
                     name="{instructors.name}"
                     description="{instructors.description}"
+                    nameKey="{instructors.nameKey}"
+                    descriptionKey="{instructors.descriptionKey}"
                     image="{instructors.image}"
                     url="{instructors.url}"
                     email="{instructors.email}"
                 ></include>
             </ForEach>
         </div>
-        <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Current Students</h2>
+        <h2 data-i18n="team.currentStudents" class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Current Students</h2>
 
         <div class="z-50 grid items-stretch w-full grid-cols-1 my-8 gap-1 sm:gap-5 
         sm:grid-cols-4">
@@ -30,6 +34,8 @@
                     src="project.html" 
                     name="{current_students.name}"
                     description="{current_students.description}"
+                    nameKey="{current_students.nameKey}"
+                    descriptionKey="{current_students.descriptionKey}"
                     image="{current_students.image}"
                     url="{current_students.url}"
                     email="{current_students.email}"
@@ -37,7 +43,7 @@
             </ForEach>
         </div>
 
-        <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Graduated Students</h2>
+        <h2 data-i18n="team.graduatedStudents" class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Graduated Students</h2>
 
         <div class="z-50 grid items-stretch w-full grid-cols-1 my-8 gap-1 sm:gap-5 
         sm:grid-cols-4">
@@ -46,6 +52,8 @@
                     src="project.html" 
                     name="{students.name}"
                     description="{students.description}"
+                    nameKey="{students.nameKey}"
+                    descriptionKey="{students.descriptionKey}"
                     image="{students.image}"
                     url="{students.url}"
                     email="{students.email}"

@@ -2,6 +2,8 @@
     {
         "name" : "Xinmiao Zhu",
         "description": "Cross-modal Spine Generation",
+        "nameKey": "team.students.xinmiaoZhu.name",
+        "descriptionKey": "team.students.xinmiaoZhu.description",
         "image" : "/assets/images/avatars_students/zxm.jpeg",
         "url" : "mailto:1625012165@qq.com",
         "email": "1625012165@qq.com"
@@ -9,6 +11,8 @@
     {
         "name" : "Fangtao Song",
         "description": "Federated Learning & Swarm Learning",
+        "nameKey": "team.students.fangtaoSong.name",
+        "descriptionKey": "team.students.fangtaoSong.description",
         "image" : "/assets/images/avatars_students/sft.png",
         "url" : "mailto:664604982@qq.com",
         "email": "664604982@qq.com"
@@ -16,14 +20,17 @@
     {
         "name" : "Chenmiao Ruan",
         "description": "Image Registration",
+        "nameKey": "team.students.chenmiaoRuan.name",
+        "descriptionKey": "team.students.chenmiaoRuan.description",
         "image" : "/assets/images/avatars_students/rcm.jpeg",
         "url" : "mailto:275997493@qq.com",
         "email": "275997493@qq.com"
     },
-
     {
         "name" : "Long Wei",
         "description": "ECG Classification",
+        "nameKey": "team.students.longWei.name",
+        "descriptionKey": "team.students.longWei.description",
         "image" : "/assets/images/avatars_students/wl.jpeg",
         "url" : "mailto:1410124534@qq.com",
         "email": "1410124534@qq.com"
@@ -31,6 +38,8 @@
     {
         "name" : "Yongjie Liu",
         "description": "Lung Nodule Detection & Segementation",
+        "nameKey": "team.students.yongjieLiu.name",
+        "descriptionKey": "team.students.yongjieLiu.description",
         "image" : "/assets/images/avatars_students/lyj.jpeg",
         "url" : "https://swimmingliu.cn/",
         "email": "SwimmingLiu@outlook.com"

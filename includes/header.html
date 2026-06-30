@@ -17,7 +17,7 @@
                     <div class="relative w-full h-full bg-white border border-dashed border-neutral-300 dark:border-neutral-700 backdrop-blur-sm rounded-xl dark:bg-neutral-950"></div>
                 </div>
                 <ForEach collection="menu">
-                    <a href="{menu.url}" class="relative flex items-center justify-center w-full px-3 py-2 font-medium tracking-wide text-center duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto hover:text-neutral-900 dark:hover:text-white">{menu.name}</a>
+                    <a href="{menu.url}" data-i18n="{menu.translationKey}" class="relative flex items-center justify-center w-full px-3 py-2 font-medium tracking-wide text-center duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto hover:text-neutral-900 dark:hover:text-white">{menu.name}</a>
                 </ForEach>
             </div>
             <div id="darkToggle" class="relative flex items-center pl-6 ml-4 font-medium tracking-wide cursor-pointer text-neutral-800 group dark:text-white"> 
@@ -26,10 +26,13 @@
                     <svg class="absolute hidden w-6 h-6 transition duration-700 transform ease" id="moon" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
                 </div> 
                 <span class="hidden sm:inline-block">
-                    <span id="dayText" class="ml-2">Day mode</span>
-                    <span id="nightText" class="hidden ml-2">Night mode</span>
+                    <span id="dayText" class="ml-2" data-i18n="theme.day">Day mode</span>
+                    <span id="nightText" class="hidden ml-2" data-i18n="theme.night">Night mode</span>
                 </span>
             </div>
+            <button id="languageToggle" type="button" class="relative flex items-center justify-center min-w-10 px-2 py-1 ml-4 text-xs font-semibold tracking-wide duration-200 border border-dashed rounded-full cursor-pointer border-neutral-300 text-neutral-800 hover:border-neutral-600 dark:border-neutral-700 dark:text-white dark:hover:border-neutral-400" aria-label="Switch language to Chinese">
+                <span id="languageToggleText">EN</span>
+            </button>
         </nav>
     </div>
 </header>
